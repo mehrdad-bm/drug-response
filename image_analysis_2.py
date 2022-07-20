@@ -84,7 +84,7 @@ row_list = []
 col_list = []
 cell_list = []
 
-plate_doses = np.loadtxt("./doses_BBBC013_v1_platemap_all.txt")
+plate_doses = np.loadtxt("./doses_platemap.txt")
 
 rows = ['A', 'B', 'C', 'D', 'E', 'F' ,'G', 'H']
 row_index = 0
